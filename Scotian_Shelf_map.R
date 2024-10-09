@@ -1,4 +1,4 @@
-# Script to plot map of BC lighthouse station locations
+# Script to plot map of the Scotian Shelf
 
 library(tidyverse)
 library(ggOceanMaps)
