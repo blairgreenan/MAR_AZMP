@@ -36,7 +36,7 @@ ggp <- ggplot(tdata, aes(x=year, y=anomaly)) +
   scale_fill_manual(values = c("blue", "red")) +
   geom_smooth(method = "lm", se = TRUE, color = "black") +
   theme(legend.position = "none") +
-  labs(title = "", x="", y="Temperature Anomaly [°C]") +
+  labs(title = "", x="", y="Temperature Anomaly (°C)") +
   annotate("text", label = "Baseline Period 1951-1980", x = 2005, y = -1.25,
            color = "black", size = 4)
 
